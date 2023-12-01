@@ -3,7 +3,7 @@ package Array;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Spiral1 {
+public class Spiral2 {
   public static List<Integer> spiralOrder(int[][] matrix) {
     ArrayList<Integer> ans = new ArrayList<>();
     int rowStart=0, rowEnd=matrix.length-1;
