@@ -16,7 +16,9 @@ class MyThread extends Thread {
 public class Main {
   public static void main(String[] args) {
       float a = 129.5f;
-      byte b = (byte) a;
+      int b = (int) a;
+    System.out.println(b);
+    System.out.println(Byte.MIN_VALUE+(129-Byte.MAX_VALUE-1));
       //min + (res - max - 1);
       //1 0 0 0 0 0 0 1
 
@@ -30,12 +32,12 @@ public class Main {
       //
       //    System.out.println(str1.equals(str3));
       //    System.out.println(str1 == str2);
-    MyThread t1 = new MyThread();
+//    MyThread t1 = new MyThread();
 //    t1.start();
-
-    for(int i = 0; i<10; i++) {
-      System.out.println("Main: " + i);
-    }
+//
+//    for(int i = 0; i<10; i++) {
+//      System.out.println("Main: " + i);
+//    }
 
     
 
